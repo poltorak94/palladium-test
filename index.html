@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Palladium Test</title>
+        <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alice&family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="./assets/libs/swiper/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="./assets/libs/fancybox/fancybox.css" />
+        <link rel="stylesheet" href="./assets/css/index.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container container">
+                <a href="#" class="header__logo">
+                    <span> Back Home </span>
+                    <span> Мебельная фабрика </span>
+                </a>
+                <nav class="header__nav">
+                    <a href="#" class="header__nav-item"> О нас </a>
+                    <a href="#" class="header__nav-item"> Адреса </a>
+                    <a href="#" class="header__nav-item"> Доставка </a>
+                    <a href="#" class="header__nav-item"> Контакты </a>
+                </nav>
+                <a href="#" class="header__burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="hero__left hero__img-holder">
+                    <img src="./assets/img/left-ch.png" alt="left-chair" />
+                </div>
+                <div class="hero__right hero__img-holder">
+                    <img src="./assets/img/right-ch.png" alt="right-ch" />
+                </div>
+                <div class="hero__container container">
+                    <h1 class="hero__title">
+                        Изменяйте готовые модели под ваш дизайн
+                    </h1>
+                    <div class="hero__subtitle">
+                        Любая мягкая мебель может быть изменена на ваш вкус
+                        совершенно бесплатно
+                    </div>
+                </div>
+            </section>
+            <section class="catalog container">
+                <h2 class="catalog__title title">Каталог</h2>
+                <div class="catalog__nav">
+                    <a href="#" class="catalog__nav-item">
+                        Цена
+                        <svg
+                            width="29"
+                            height="29"
+                            viewBox="0 0 29 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M9.8117 11.2254L14.5 15.9137L19.1884 11.2254C19.3002 11.1135 19.433 11.0248 19.5792 10.9643C19.7254 10.9037 19.882 10.8726 20.0402 10.8726C20.1984 10.8726 20.3551 10.9037 20.5013 10.9643C20.6474 11.0248 20.7802 11.1135 20.8921 11.2254C21.004 11.3373 21.0927 11.4701 21.1533 11.6163C21.2138 11.7624 21.245 11.9191 21.245 12.0773C21.245 12.2355 21.2138 12.3922 21.1533 12.5383C21.0927 12.6845 21.004 12.8173 20.8921 12.9292L15.3459 18.4754C15.2341 18.5874 15.1013 18.6763 14.9551 18.7369C14.8089 18.7976 14.6522 18.8288 14.494 18.8288C14.3357 18.8288 14.179 18.7976 14.0329 18.7369C13.8867 18.6763 13.7539 18.5874 13.6421 18.4754L8.09586 12.9292C7.98385 12.8174 7.89498 12.6846 7.83434 12.5384C7.7737 12.3922 7.74249 12.2355 7.74249 12.0773C7.74249 11.919 7.7737 11.7623 7.83434 11.6162C7.89498 11.47 7.98385 11.3372 8.09586 11.2254C8.56711 10.7663 9.34045 10.7542 9.8117 11.2254Z"
+                                fill="white"
+                            />
+                        </svg>
+                    </a>
+                    <a href="#" class="catalog__nav-item">
+                        Цвет
+                        <svg
+                            width="29"
+                            height="29"
+                            viewBox="0 0 29 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M9.8117 11.2254L14.5 15.9137L19.1884 11.2254C19.3002 11.1135 19.433 11.0248 19.5792 10.9643C19.7254 10.9037 19.882 10.8726 20.0402 10.8726C20.1984 10.8726 20.3551 10.9037 20.5013 10.9643C20.6474 11.0248 20.7802 11.1135 20.8921 11.2254C21.004 11.3373 21.0927 11.4701 21.1533 11.6163C21.2138 11.7624 21.245 11.9191 21.245 12.0773C21.245 12.2355 21.2138 12.3922 21.1533 12.5383C21.0927 12.6845 21.004 12.8173 20.8921 12.9292L15.3459 18.4754C15.2341 18.5874 15.1013 18.6763 14.9551 18.7369C14.8089 18.7976 14.6522 18.8288 14.494 18.8288C14.3357 18.8288 14.179 18.7976 14.0329 18.7369C13.8867 18.6763 13.7539 18.5874 13.6421 18.4754L8.09586 12.9292C7.98385 12.8174 7.89498 12.6846 7.83434 12.5384C7.7737 12.3922 7.74249 12.2355 7.74249 12.0773C7.74249 11.919 7.7737 11.7623 7.83434 11.6162C7.89498 11.47 7.98385 11.3372 8.09586 11.2254C8.56711 10.7663 9.34045 10.7542 9.8117 11.2254Z"
+                                fill="white"
+                            />
+                        </svg>
+                    </a>
+                    <a
+                        href="#"
+                        class="catalog__nav-item catalog__nav-item--active"
+                    >
+                        Кресла
+                        <svg
+                            width="29"
+                            height="29"
+                            viewBox="0 0 29 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M9.8117 11.2254L14.5 15.9137L19.1884 11.2254C19.3002 11.1135 19.433 11.0248 19.5792 10.9643C19.7254 10.9037 19.882 10.8726 20.0402 10.8726C20.1984 10.8726 20.3551 10.9037 20.5013 10.9643C20.6474 11.0248 20.7802 11.1135 20.8921 11.2254C21.004 11.3373 21.0927 11.4701 21.1533 11.6163C21.2138 11.7624 21.245 11.9191 21.245 12.0773C21.245 12.2355 21.2138 12.3922 21.1533 12.5383C21.0927 12.6845 21.004 12.8173 20.8921 12.9292L15.3459 18.4754C15.2341 18.5874 15.1013 18.6763 14.9551 18.7369C14.8089 18.7976 14.6522 18.8288 14.494 18.8288C14.3357 18.8288 14.179 18.7976 14.0329 18.7369C13.8867 18.6763 13.7539 18.5874 13.6421 18.4754L8.09586 12.9292C7.98385 12.8174 7.89498 12.6846 7.83434 12.5384C7.7737 12.3922 7.74249 12.2355 7.74249 12.0773C7.74249 11.919 7.7737 11.7623 7.83434 11.6162C7.89498 11.47 7.98385 11.3372 8.09586 11.2254C8.56711 10.7663 9.34045 10.7542 9.8117 11.2254Z"
+                                fill="white"
+                            />
+                        </svg>
+                    </a>
+                </div>
+                <div class="catalog__grid">
+                    <div class="catalog__item">
+                        <a href="#" class="catalog__item-link">
+                            <img
+                                src="./assets/img/product-1.jpg"
+                                alt="кресло"
+                                class="catalog__item-image"
+                            />
+                        </a>
+                        <div class="catalog__item-info">
+                            <div class="catalog__item-info-text">
+                                <span>Кресло </span>
+                                <span> C подставкой для ног </span>
+                            </div>
+                            <div class="catalog__item-info-price">16 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <a href="#" class="catalog__item-link">
+                            <img
+                                src="./assets/img/product-2.jpg"
+                                alt="кресло"
+                                class="catalog__item-image"
+                            />
+                        </a>
+                        <div class="catalog__item-info">
+                            <div class="catalog__item-info-text">
+                                <span>Кресло </span>
+                                <span> C низкой спинкой </span>
+                            </div>
+                            <div class="catalog__item-info-price">10 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <a href="#" class="catalog__item-link">
+                            <img
+                                src="./assets/img/product-3.jpg"
+                                alt="кресло"
+                                class="catalog__item-image"
+                            />
+                        </a>
+                        <div class="catalog__item-info">
+                            <div class="catalog__item-info-text">
+                                <span>Кресло </span>
+                            </div>
+                            <div class="catalog__item-info-price">9 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <a href="#" class="catalog__item-link">
+                            <img
+                                src="./assets/img/product-4.jpg"
+                                alt="кресло"
+                                class="catalog__item-image"
+                            />
+                        </a>
+                        <div class="catalog__item-info">
+                            <div class="catalog__item-info-text">
+                                <span>Кресло </span>
+                                <span>C подушкой</span>
+                            </div>
+                            <div class="catalog__item-info-price">6 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <a href="#" class="catalog__item-link">
+                            <img
+                                src="./assets/img/product-5.jpg"
+                                alt="кресло"
+                                class="catalog__item-image"
+                            />
+                        </a>
+                        <div class="catalog__item-info">
+                            <div class="catalog__item-info-text">
+                                <span>Кресло </span>
+                                <span>Раскладное</span>
+                            </div>
+                            <div class="catalog__item-info-price">16 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <a href="#" class="catalog__item-link">
+                            <img
+                                src="./assets/img/product-6.jpg"
+                                alt="кресло"
+                                class="catalog__item-image"
+                            />
+                        </a>
+                        <div class="catalog__item-info">
+                            <div class="catalog__item-info-text">
+                                <span>Кресло </span>
+                                <span>Плетеное</span>
+                            </div>
+                            <div class="catalog__item-info-price">10 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <a href="#" class="catalog__item-link">
+                            <img
+                                src="./assets/img/product-7.jpg"
+                                alt="кресло"
+                                class="catalog__item-image"
+                            />
+                        </a>
+                        <div class="catalog__item-info">
+                            <div class="catalog__item-info-text">
+                                <span>Кресло </span>
+                                <span>С высокой спинкой</span>
+                            </div>
+                            <div class="catalog__item-info-price">9 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <a href="#" class="catalog__item-link">
+                            <img
+                                src="./assets/img/product-8.jpg"
+                                alt="кресло"
+                                class="catalog__item-image"
+                            />
+                        </a>
+                        <div class="catalog__item-info">
+                            <div class="catalog__item-info-text">
+                                <span>Кресло </span>
+                                <span>Плетеное</span>
+                            </div>
+                            <div class="catalog__item-info-price">6 990 ₽</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog__grid catalog__grid--hidden">
+                    <div class="catalog__item">
+                        <a href="#" class="catalog__item-link">
+                            <img
+                                src="./assets/img/product-1.jpg"
+                                alt="кресло"
+                                class="catalog__item-image"
+                            />
+                        </a>
+                        <div class="catalog__item-info">
+                            <div class="catalog__item-info-text">
+                                <span>Кресло </span>
+                                <span> C подставкой для ног </span>
+                            </div>
+                            <div class="catalog__item-info-price">16 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <a href="#" class="catalog__item-link">
+                            <img
+                                src="./assets/img/product-2.jpg"
+                                alt="кресло"
+                                class="catalog__item-image"
+                            />
+                        </a>
+                        <div class="catalog__item-info">
+                            <div class="catalog__item-info-text">
+                                <span>Кресло </span>
+                                <span> C низкой спинкой </span>
+                            </div>
+                            <div class="catalog__item-info-price">10 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <a href="#" class="catalog__item-link">
+                            <img
+                                src="./assets/img/product-3.jpg"
+                                alt="кресло"
+                                class="catalog__item-image"
+                            />
+                        </a>
+                        <div class="catalog__item-info">
+                            <div class="catalog__item-info-text">
+                                <span>Кресло </span>
+                            </div>
+                            <div class="catalog__item-info-price">9 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <a href="#" class="catalog__item-link">
+                            <img
+                                src="./assets/img/product-4.jpg"
+                                alt="кресло"
+                                class="catalog__item-image"
+                            />
+                        </a>
+                        <div class="catalog__item-info">
+                            <div class="catalog__item-info-text">
+                                <span>Кресло </span>
+                                <span>C подушкой</span>
+                            </div>
+                            <div class="catalog__item-info-price">6 990 ₽</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog__button-holder">
+                    <a href="#" class="catalog__show-more">
+                        <svg
+                            width="42"
+                            height="23"
+                            viewBox="0 0 42 23"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M41 1L21 21L1 0.999998"
+                                stroke="black"
+                                stroke-width="2"
+                            />
+                        </svg>
+                        <span> Смотреть все </span>
+                    </a>
+                </div>
+            </section>
+            <section class="advantages">
+                <div class="advantages__container container">
+                    <h2 class="advantages__title title">Наши преимущества</h2>
+                    <div class="advantages__slider">
+                        <div class="swiper-wrapper">
+                            <div class="advantages__slide swiper-slide">
+                                <div class="advantages__slide-info">
+                                    <div class="advantages__slide-icon-holder">
+                                        <span></span>
+                                        <img
+                                            src="./assets/img/3d.svg"
+                                            alt="иконка"
+                                            class="advantages__slide-icon"
+                                        />
+                                    </div>
+
+                                    <div class="advantages__slide-title">
+                                        Создадим 3D модель интерьера вашей мечты
+                                    </div>
+                                    <div class="advantages__slide-subtitle">
+                                        Совершенно бесплатно
+                                    </div>
+                                </div>
+                                <a
+                                    href="#"
+                                    target="_blank"
+                                    class="advantages__slide-btn"
+                                >
+                                    Подать заявку
+                                </a>
+                            </div>
+                            <div class="advantages__slide swiper-slide">
+                                <div class="advantages__slide-info">
+                                    <div class="advantages__slide-icon-holder">
+                                        <span></span>
+                                        <img
+                                            src="./assets/img/truck.svg"
+                                            alt="иконка"
+                                            class="advantages__slide-icon"
+                                        />
+                                    </div>
+
+                                    <div class="advantages__slide-title">
+                                        Доставим мебель, сделанную на заказ, в
+                                        течение 2-х недель
+                                    </div>
+                                    <div class="advantages__slide-subtitle">
+                                        Или вернем деньги
+                                    </div>
+                                </div>
+                                <a
+                                    href="#"
+                                    target="_blank"
+                                    class="advantages__slide-btn"
+                                >
+                                    Условия доставки
+                                </a>
+                            </div>
+                            <div class="advantages__slide swiper-slide">
+                                <div class="advantages__slide-info">
+                                    <div class="advantages__slide-icon-holder">
+                                        <span></span>
+                                        <img
+                                            src="./assets/img/client.svg"
+                                            alt="иконка"
+                                            class="advantages__slide-icon"
+                                        />
+                                    </div>
+
+                                    <div class="advantages__slide-title">
+                                        Наш дизайнер интерьеров поможет вам
+                                        сделать правильный выбор
+                                    </div>
+                                    <div class="advantages__slide-subtitle">
+                                        Обратитесь к нему, если есть сомнения
+                                    </div>
+                                </div>
+                                <a
+                                    href="#"
+                                    target="_blank"
+                                    class="advantages__slide-btn"
+                                >
+                                    Подать заявку
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="delivery">
+                <h2 class="container delivery__title title">
+                    Условия доставки
+                </h2>
+
+                <div class="delivery__items">
+                    <div class="delivery__item">
+                        <div class="delivery__item-title">Самовывоз</div>
+                        <ul class="delivery__item-list">
+                            <li>Доступно не во всех регионах</li>
+                            <li>
+                                Стоимость рассчитывается исходя из веса и
+                                размера заказа
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="delivery__item">
+                        <div class="delivery__item-title">Доставка</div>
+                        <ul class="delivery__item-list">
+                            <li>Доступно во всех регионах</li>
+                            <li>
+                                Стоимость рассчитывается исходя из адреса, веса
+                                и размера заказа
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="delivery__item">
+                        <div class="delivery__item-title">
+                            Доставка и сборка
+                        </div>
+                        <ul class="delivery__item-list">
+                            <li>Доступно во всех регионах</li>
+                            <li>
+                                Стоимость рассчитывается исходя из адреса, веса
+                                и размера заказа
+                            </li>
+                            <li>
+                                При заказе от 100 000 рублей сборка
+                                осуществляется бесплатно
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gallery container">
+                <h2 class="gallery__title title">Примеры интерьеров</h2>
+                <div class="gallery__grid">
+                    <a
+                        href="./assets/img/gallery-1.jpg"
+                        class="gallery__item"
+                        data-fancybox="gallery"
+                    >
+                        <img
+                            src="./assets/img/gallery-1.jpg"
+                            alt=""
+                            class="gallery__item-img"
+                        />
+                    </a>
+                    <a
+                        href="./assets/img/gallery-4.jpg"
+                        class="gallery__item"
+                        data-fancybox="gallery"
+                    >
+                        <img
+                            src="./assets/img/gallery-4.jpg"
+                            alt=""
+                            class="gallery__item-img"
+                        />
+                    </a>
+                    <a
+                        href="./assets/img/gallery-7.jpg"
+                        class="gallery__item"
+                        data-fancybox="gallery"
+                    >
+                        <img
+                            src="./assets/img/gallery-7.jpg"
+                            alt=""
+                            class="gallery__item-img"
+                        />
+                    </a>
+                    <a
+                        href="./assets/img/gallery-2.jpg"
+                        class="gallery__item"
+                        data-fancybox="gallery"
+                    >
+                        <img
+                            src="./assets/img/gallery-2.jpg"
+                            alt=""
+                            class="gallery__item-img"
+                        />
+                    </a>
+                    <a
+                        href="./assets/img/gallery-5.jpg"
+                        class="gallery__item"
+                        data-fancybox="gallery"
+                    >
+                        <img
+                            src="./assets/img/gallery-5.jpg"
+                            alt=""
+                            class="gallery__item-img"
+                        />
+                    </a>
+                    <a
+                        href="./assets/img/gallery-8.jpg"
+                        class="gallery__item"
+                        data-fancybox="gallery"
+                    >
+                        <img
+                            src="./assets/img/gallery-8.jpg"
+                            alt=""
+                            class="gallery__item-img"
+                        />
+                    </a>
+                    <a
+                        href="./assets/img/gallery-3.jpg"
+                        class="gallery__item"
+                        data-fancybox="gallery"
+                    >
+                        <img
+                            src="./assets/img/gallery-3.jpg"
+                            alt=""
+                            class="gallery__item-img"
+                        />
+                    </a>
+                    <a
+                        href="./assets/img/gallery-6.jpg"
+                        class="gallery__item"
+                        data-fancybox="gallery"
+                    >
+                        <img
+                            src="./assets/img/gallery-6.jpg"
+                            alt=""
+                            class="gallery__item-img"
+                        />
+                    </a>
+                    <a
+                        href="./assets/img/gallery-9.jpg"
+                        class="gallery__item"
+                        data-fancybox="gallery"
+                    >
+                        <img
+                            src="./assets/img/gallery-9.jpg"
+                            alt=""
+                            class="gallery__item-img"
+                        />
+                    </a>
+                </div>
+                <div class="gallery__btn-holder">
+                    <a href="javascript:" class="gallery__btn">
+                        Загрузить все
+                    </a>
+                </div>
+            </section>
+            <section class="feedback container">
+                <div class="feedback__container">
+                    <div class="feedback__info">
+                        <h2 class="feedback__title">
+                            Мы всегда рады помочь и провести бесплатную
+                            консультацию, если у вас возникли трудности с
+                            выбором мебели
+                        </h2>
+                        <div class="feedback__subtitle">
+                            Заполните форму и наш консультант свяжется с вами в
+                            течение 15 минут
+                        </div>
+                    </div>
+                    <form action="#" class="feedback__form">
+                        <div class="feedback__form-group">
+                            <span>Имя</span>
+                            <input
+                                class="feedback__form-field"
+                                type="text"
+                                required="required"
+                                name="name"
+                            />
+                        </div>
+                        <div class="feedback__form-group">
+                            <span>Телефон</span>
+                            <input
+                                class="feedback__form-field"
+                                type="tel"
+                                required="required"
+                                name="tel"
+                            />
+                        </div>
+                        <input
+                            type="submit"
+                            value="Подать заявку"
+                            class="feedback__form-submit"
+                        />
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__group">
+                    <div class="footer__group-title">Покупателям</div>
+                    <a href="#" class="footer__nav">О нас</a>
+                    <a href="#" class="footer__nav">Адреса магазинов</a>
+                    <a href="#" class="footer__nav">Правила и положения</a>
+                    <a href="#" class="footer__nav">Условия доставки</a>
+                </div>
+                <div class="footer__group">
+                    <div class="footer__group-title">Контакты</div>
+                    <div class="footer__contact">
+                        <div class="footer__contact-title">Телефон:</div>
+                        <a href="tel:89038809185" class="footer__contact-val">
+                            8 (903) 880-91-85
+                        </a>
+                    </div>
+                    <div class="footer__contact">
+                        <div class="footer__contact-title">Почта:</div>
+                        <a href="tel:89038809185" class="footer__contact-val">
+                            backhome@gmail.com
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__group">
+                    <div class="footer__group-title">Социальные сети</div>
+                    <div class="footer__socials">
+                        <a href="#" target="_blank" class="footer__social">
+                            <svg
+                                width="18"
+                                height="18"
+                                viewBox="0 0 18 18"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g clip-path="url(#clip0_2_197)">
+                                    <path
+                                        d="M17.9824 5.29205C17.9403 4.33564 17.7856 3.67812 17.564 3.10836C17.3355 2.50359 16.9838 1.96213 16.5232 1.51201C16.073 1.05489 15.528 0.699691 14.9302 0.474702C14.3572 0.253147 13.7031 0.0984842 12.7467 0.0563159C11.7831 0.0105764 11.4772 0 9.03341 0C6.58958 0 6.28368 0.0105764 5.3237 0.0527447C4.36729 0.094913 3.70977 0.249713 3.14016 0.471131C2.53524 0.699691 1.99378 1.05132 1.54367 1.51201C1.08655 1.96213 0.731483 2.50716 0.506356 3.10493C0.284801 3.67812 0.130139 4.33207 0.0879703 5.28848C0.0422308 6.25203 0.0316544 6.55792 0.0316544 9.00176C0.0316544 11.4456 0.0422308 11.7515 0.084399 12.7115C0.126567 13.6679 0.281367 14.3254 0.502922 14.8952C0.731483 15.4999 1.08655 16.0414 1.54367 16.4915C1.99378 16.9486 2.53881 17.3038 3.13658 17.5288C3.70977 17.7504 4.36372 17.905 5.32027 17.9472C6.28011 17.9895 6.58614 17.9999 9.02998 17.9999C11.4738 17.9999 11.7797 17.9895 12.7397 17.9472C13.6961 17.905 14.3536 17.7504 14.9232 17.5288C16.1329 17.0611 17.0893 16.1047 17.557 14.8952C17.7785 14.322 17.9333 13.6679 17.9754 12.7115C18.0176 11.7515 18.0282 11.4456 18.0282 9.00176C18.0282 6.55792 18.0246 6.25203 17.9824 5.29205ZM16.3615 12.6411C16.3228 13.5202 16.1751 13.9949 16.052 14.3114C15.7496 15.0956 15.1272 15.7179 14.343 16.0204C14.0266 16.1434 13.5484 16.2911 12.6728 16.3297C11.7234 16.372 11.4387 16.3824 9.03698 16.3824C6.63531 16.3824 6.347 16.372 5.40103 16.3297C4.52196 16.2911 4.04725 16.1434 3.73079 16.0204C3.34056 15.8761 2.98536 15.6476 2.69705 15.3487C2.39816 15.0568 2.1696 14.7052 2.02538 14.315C1.9023 13.9985 1.75465 13.5202 1.71605 12.6447C1.67374 11.6953 1.66331 11.4104 1.66331 9.00876C1.66331 6.6071 1.67374 6.31879 1.71605 5.37295C1.75465 4.49387 1.9023 4.01917 2.02538 3.7027C2.1696 3.31234 2.39816 2.95727 2.70062 2.66883C2.99236 2.36994 3.34399 2.14138 3.73436 1.99729C4.05083 1.87422 4.5291 1.72656 5.40461 1.68783C6.35401 1.64566 6.63889 1.63509 9.04042 1.63509C11.4457 1.63509 11.7304 1.64566 12.6764 1.68783C13.5554 1.72656 14.0301 1.87422 14.3466 1.99729C14.7368 2.14138 15.092 2.36994 15.3804 2.66883C15.6792 2.96071 15.9078 3.31234 16.052 3.7027C16.1751 4.01917 16.3228 4.49731 16.3615 5.37295C16.4037 6.32236 16.4142 6.6071 16.4142 9.00876C16.4142 11.4104 16.4037 11.6917 16.3615 12.6411Z"
+                                        fill="white"
+                                    />
+                                    <path
+                                        d="M9.03338 4.37769C6.48062 4.37769 4.40943 6.44874 4.40943 9.00164C4.40943 11.5545 6.48062 13.6256 9.03338 13.6256C11.5863 13.6256 13.6573 11.5545 13.6573 9.00164C13.6573 6.44874 11.5863 4.37769 9.03338 4.37769ZM9.03338 12.0011C7.37728 12.0011 6.03394 10.6579 6.03394 9.00164C6.03394 7.3454 7.37728 6.00219 9.03338 6.00219C10.6896 6.00219 12.0328 7.3454 12.0328 9.00164C12.0328 10.6579 10.6896 12.0011 9.03338 12.0011Z"
+                                        fill="white"
+                                    />
+                                    <path
+                                        d="M14.9198 4.19496C14.9198 4.79108 14.4364 5.27444 13.8402 5.27444C13.244 5.27444 12.7607 4.79108 12.7607 4.19496C12.7607 3.5987 13.244 3.11548 13.8402 3.11548C14.4364 3.11548 14.9198 3.5987 14.9198 4.19496Z"
+                                        fill="white"
+                                    />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_197">
+                                        <rect
+                                            width="18"
+                                            height="18"
+                                            fill="white"
+                                        />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank" class="footer__social">
+                            <svg
+                                width="17"
+                                height="16"
+                                viewBox="0 0 17 16"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g clip-path="url(#clip0_2_195)">
+                                    <path
+                                        d="M11.3312 2.65667H12.8832V0.112667C12.6154 0.078 11.6946 0 10.6222 0C8.38456 0 6.85173 1.32467 6.85173 3.75933V6H4.38248V8.844H6.85173V16H9.87914V8.84467H12.2485L12.6246 6.00067H9.87843V4.04133C9.87914 3.21933 10.1143 2.65667 11.3312 2.65667Z"
+                                        fill="white"
+                                    />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_195">
+                                        <rect
+                                            width="17"
+                                            height="16"
+                                            fill="white"
+                                        />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank" class="footer__social">
+                            <svg
+                                width="22"
+                                height="22"
+                                viewBox="0 0 22 22"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g clip-path="url(#clip0_2_221)">
+                                    <path
+                                        d="M14.3863 10.0114L9.52594 7.35199C9.24647 7.19908 8.91615 7.20479 8.64223 7.3671C8.36813 7.52957 8.20465 7.81659 8.20465 8.13516V13.4082C8.20465 13.7253 8.36713 14.0118 8.63937 14.1745C8.78154 14.2594 8.93915 14.302 9.09709 14.302C9.24177 14.302 9.38679 14.2663 9.52023 14.1944L14.3807 11.5809C14.6692 11.4256 14.8493 11.1257 14.8507 10.7979C14.8519 10.4701 14.6739 10.1688 14.3863 10.0114ZM9.49388 12.7449V8.80387L13.1264 10.7915L9.49388 12.7449Z"
+                                        fill="white"
+                                    />
+                                    <path
+                                        d="M21.8381 6.59688L21.8371 6.58681C21.8185 6.40973 21.633 4.83466 20.8673 4.03352C19.9822 3.09123 18.9789 2.97676 18.4963 2.92188C18.4563 2.91734 18.4198 2.91315 18.387 2.90878L18.3486 2.90475C15.4402 2.69327 11.0478 2.6644 11.0038 2.66423L11 2.66406L10.9961 2.66423C10.9521 2.6644 6.55976 2.69327 3.62514 2.90475L3.58637 2.90878C3.55515 2.91298 3.52074 2.91684 3.48331 2.9212C3.00629 2.97626 2.01365 3.0909 1.12608 4.06726C0.396788 4.85983 0.185973 6.40117 0.164321 6.57439L0.161804 6.59688C0.155258 6.67056 0 8.42473 0 10.1858V11.832C0 13.5931 0.155258 15.3472 0.161804 15.4211L0.162979 15.4322C0.181609 15.6064 0.366911 17.1526 1.1291 17.9541C1.96128 18.8648 3.01351 18.9853 3.57948 19.0501C3.66895 19.0603 3.74599 19.0691 3.79852 19.0783L3.84938 19.0853C5.52868 19.2451 10.7938 19.3239 11.0171 19.327L11.0238 19.3272L11.0305 19.327C11.0745 19.3269 15.4667 19.298 18.3751 19.0865L18.4135 19.0825C18.4503 19.0776 18.4916 19.0733 18.5369 19.0686C19.0112 19.0182 19.9985 18.9136 20.8738 17.9505C21.6031 17.1578 21.8141 15.6165 21.8356 15.4434L21.8381 15.4209C21.8447 15.3471 22.0001 13.5931 22.0001 11.832V10.1858C21.9999 8.42473 21.8447 6.67073 21.8381 6.59688ZM20.7107 11.832C20.7107 13.462 20.5684 15.1406 20.5549 15.2947C20.5002 15.7192 20.2778 16.6944 19.9225 17.0806C19.3746 17.6833 18.8118 17.7431 18.401 17.7865C18.3513 17.7917 18.3053 17.7968 18.2637 17.802C15.4506 18.0054 11.224 18.0366 11.0293 18.0378C10.811 18.0346 5.62284 17.9552 3.99474 17.804C3.91132 17.7904 3.82118 17.78 3.72618 17.7693C3.2443 17.714 2.58466 17.6385 2.07743 17.0806L2.06551 17.0678C1.71639 16.7041 1.50038 15.7922 1.44549 15.2997C1.43525 15.1832 1.28923 13.4848 1.28923 11.832V10.1858C1.28923 8.55766 1.43122 6.88087 1.44499 6.7236C1.51028 6.22359 1.73687 5.30748 2.07743 4.93721C2.64206 4.31618 3.23741 4.24736 3.63118 4.20187C3.66878 4.19751 3.70386 4.19348 3.73625 4.18929C6.59031 3.98485 10.8472 3.95447 11 3.95329C11.1527 3.9543 15.4081 3.98485 18.2368 4.18929C18.2716 4.19365 18.3095 4.19801 18.3503 4.20271C18.7553 4.24887 19.3674 4.3187 19.9292 4.91791L19.9344 4.92345C20.2835 5.28717 20.4995 6.21503 20.5544 6.71739C20.5642 6.82733 20.7107 8.52946 20.7107 10.1858V11.832Z"
+                                        fill="white"
+                                    />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_221">
+                                        <rect
+                                            width="22"
+                                            height="22"
+                                            fill="white"
+                                        />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank" class="footer__social">
+                            <svg
+                                width="20"
+                                height="20"
+                                viewBox="0 0 20 20"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g clip-path="url(#clip0_2_224)">
+                                    <path
+                                        d="M19.8854 3.68652C19.7836 3.58469 19.6139 3.55074 19.4781 3.58469L18.7991 3.82234C19.2065 3.34709 19.4781 2.83789 19.6478 2.36264C19.7157 2.19291 19.6817 2.05713 19.5799 1.95526C19.4781 1.85344 19.3083 1.81948 19.1725 1.88735C18.222 2.29473 17.4073 2.6342 16.7284 2.83785C16.7284 2.8718 16.6944 2.83785 16.6604 2.83785C16.1173 2.53234 14.7934 1.8534 13.8429 1.8534C11.4327 1.88735 9.49771 3.92416 9.49771 6.40226V6.53804C5.96726 5.8591 4.03231 4.8407 1.9276 2.63416L1.58821 2.29469L1.38452 2.70207C0.230337 4.90861 1.04505 6.91146 2.36897 8.26933C1.75794 8.16751 1.35056 7.96382 0.977142 7.65831C0.841363 7.55648 0.671629 7.52253 0.501895 7.62435C0.366116 7.69226 0.298207 7.89591 0.332162 8.06564C0.807409 9.66112 1.99555 10.9511 3.28551 11.7319C2.67448 11.7319 2.16528 11.664 1.65608 11.3245C1.5203 11.2566 1.31661 11.2566 1.18083 11.3585C1.04505 11.4603 0.977142 11.63 1.04505 11.7998C1.65608 13.531 2.84421 14.4476 4.74524 14.6852C3.76079 15.2623 2.47083 15.7376 0.46798 15.7715C0.264292 15.7715 0.0945577 15.9073 0.0266876 16.0771C-0.0412216 16.2807 0.0266876 16.4505 0.162467 16.5863C1.38456 17.5707 4.10026 18.1478 7.46098 18.1478C13.4356 18.1478 18.3239 12.8182 18.3239 6.26648V6.16466C19.0708 5.79123 19.6818 5.07834 19.9873 4.09389C20.0212 3.95808 19.9873 3.78834 19.8854 3.68652ZM17.8486 5.62146L17.6449 5.68937V6.26648C17.6449 12.4448 13.0621 17.4689 7.46094 17.4689C4.37178 17.4689 2.30106 16.9597 1.18083 16.4165C3.52315 16.2468 4.88102 15.4999 5.93338 14.6852L6.78205 14.0742H5.76365C3.8287 14.0742 2.64057 13.531 1.96163 12.2411C2.57266 12.4448 3.21764 12.4448 3.93053 12.4108C4.20209 12.3769 4.47368 12.3769 4.74524 12.3769L4.84707 11.6979C3.5571 11.3245 2.0295 10.1703 1.28266 8.6088C1.96159 8.91431 2.7084 8.98222 3.38733 8.98222H4.43969L3.59106 8.37116C2.87817 7.86196 0.773493 6.06279 1.7919 3.48283C3.96448 5.62146 6.03524 6.60591 9.76935 7.28484L10.1767 7.35275V6.40226C10.1767 4.29758 11.8062 2.56629 13.843 2.53234C14.6237 2.49838 15.9137 3.21127 16.2871 3.41496C16.4908 3.51678 16.6945 3.55074 16.8981 3.48287C17.4073 3.31313 18.0184 3.07549 18.6973 2.80393C18.3918 3.31313 17.9844 3.78838 17.4413 4.22971C17.3055 4.33154 17.2716 4.53523 17.3395 4.70496C17.4074 4.87469 17.611 4.9426 17.7808 4.87469L19.1047 4.4334C18.867 4.87466 18.4936 5.38386 17.8486 5.62146Z"
+                                        fill="white"
+                                    />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_224">
+                                        <rect
+                                            width="20"
+                                            height="20"
+                                            fill="white"
+                                        />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__group">
+                    <div class="footer__group-title">Время работы</div>
+                    <div class="footer__work">
+                        <div class="footer__work-title">Будни:</div>
+                        <div class="footer__work-value">8:00 - 21:00</div>
+                    </div>
+                    <div class="footer__work">
+                        <div class="footer__work-title">Выходные:</div>
+                        <div class="footer__work-value">10:00 - 21:00</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="./assets/libs/swiper/swiper-bundle.min.js"></script>
+        <script src="./assets/libs/fancybox/fancybox.umd.js"></script>
+        <script src="./assets/index.js"></script>
+    </body>
+</html>
