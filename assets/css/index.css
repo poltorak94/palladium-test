@@ -291,7 +291,7 @@ body {
         font-size: 1.25rem;
         line-height: 145%;
         font-weight: 500; }
-      .catalog__item-info-text span:last-child {
+      .catalog__item-info-text span:nth-child(2) {
         font-size: 0.75rem;
         font-weight: 500;
         line-height: 145%;
